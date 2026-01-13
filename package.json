@@ -1,6 +1,6 @@
 {
   "name": "meta-ads-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Emin Berkay Daglar eminberkaydaglar@gmail.com",
   "description": "Modern TypeScript SDK for Facebook/Meta Ads Library API with fluent chainable interface",
   "type": "module",
