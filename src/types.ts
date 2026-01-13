@@ -252,7 +252,10 @@ export interface Ad {
   /** Target locations */
   target_locations?: TargetLocation[];
   /** Total reach by location (EU, BR, UK) */
-  total_reach_by_location?: Record<string, number>;
+  total_reach_by_location?: {
+    key: AdReachedCountry;
+    value: number;
+  }[];
 }
 
 /** Pagination cursors */
